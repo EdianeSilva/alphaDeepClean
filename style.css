@@ -8,7 +8,7 @@
 }
 body{
     font-size: 100%;
-    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+    background-image: linear-gradient(to top, #e4ebfa 0%, #e6effc 100%);
 }
 .box-cabecalho{
     display: flex;
@@ -33,7 +33,7 @@ body{
     margin-bottom: 30px;
     border-top: 2px solid #a0db34;
     margin: 0 5%;
-    padding: 0px 5px;
+    padding: 20px 5px;
 }
 .conteudo-principal{
     display: flex;
@@ -64,7 +64,7 @@ body{
     width: 130px;
     height: 40px;
     margin-top: 20px;
-    border-radius:  35px 2px;
+    border-radius: 35px 2px;
     cursor: pointer;
     border: none;
     box-shadow: 4px 5px 4px #33343586;
@@ -118,3 +118,4 @@ strong{
     color: rgb(129, 199, 64);
     font-size: 17px;
 }
+
