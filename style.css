@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+.box-cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.material-icons{
+    color: #2678d1;
+}
+.material-icons:hover{
+    color: #a0db34;
+}
+.logo{
+    height: 100px;
+}
+.menu-cabecalho{
+    display: flex;
+    gap: 30px;
+}
+.conteudo{
+    margin-bottom: 30px;
+    border-top: 2px solid #a0db34;
+    margin: 10px;
+    padding: 0px 5px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.main-titulo{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #2678d1;
+}
+.main-subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+.main-botao{
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
+    width: 150px;
+    height: 40px;
+    border-radius:  10px;
+    cursor: pointer;
+    border: none;
+    box-shadow: 4px 5px 4px #33343586;
+    font-size: 15px;
+    color: #b8d7dd;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-botao:hover{
+    color: rgb(253, 255, 254);
+}
+
+.main-foto{
+    width: 200px;
+    border-radius: 15px;
+}
+.conteudo-secundario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 50px;
+}
+.conteudo-secundario-titulo{
+    border-top: 5px solid #a0db34;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #2678d1;
+}
+.conteudo-secundario-p{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #0a0a0a;
+}
+.rodape{
+    margin-top: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 2px solid #a0db34;
+    display: flex;
+    align-items: center;justify-content: center;
+}
+.sobre{
+    margin: 0 10px;
+    padding: 0 20px;
+    text-align: center;
+}
+strong{
+    color: rgb(129, 199, 64);
+    font-size: 17px;
+}
