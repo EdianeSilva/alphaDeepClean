@@ -32,9 +32,8 @@ body{
     gap: 30px;
 }
 .conteudo{
-    margin-bottom: 30px;
-    margin: 0 5%;
-    padding: 20px 5px;
+    margin: 0 5% auto;
+    padding: 2%;
 }
 .conteudo-principal{
     display: flex;
