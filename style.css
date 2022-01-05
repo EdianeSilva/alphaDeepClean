@@ -49,15 +49,16 @@ body{
 }
 .main-titulo{
     font-family: 'Nunito', sans-serif;
-    font-weight: 900;
+    font-weight: 800;
     font-size: 30px;
     color: #2678d1;
     margin-top: 10px;
+    display: flex;
 }
 .main-subtitulo{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
 }
 .main-botao{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
@@ -77,7 +78,7 @@ body{
 }
 
 .main-foto{
-    width: 200px;
+    width: 150px;
     border-radius: 15px;
 }
 .conteudo-secundario{
