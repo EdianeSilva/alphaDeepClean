@@ -9,6 +9,8 @@
 body{
     font-size: 100%;
     background-image: linear-gradient(to top, #e4ebfa 0%, #e6effc 100%);
+    margin: 2% auto;
+    padding: 5px;
 }
 .box-cabecalho{
     display: flex;
@@ -31,7 +33,6 @@ body{
 }
 .conteudo{
     margin-bottom: 30px;
-    border-top: 2px solid #a0db34;
     margin: 0 5%;
     padding: 20px 5px;
 }
@@ -78,7 +79,7 @@ body{
 }
 
 .main-foto{
-    width: 150px;
+    width: 130px;
     border-radius: 15px;
 }
 .conteudo-secundario{
@@ -87,10 +88,12 @@ body{
     align-items: center;
     gap: 5px;
     margin-top: 50px;
+    justify-content: center;
 }
 .conteudo-secundario-titulo{
     border-top: 5px solid #a0db34;
     padding-top: 20px;
+    padding-bottom: 10px;
     font-family: 'Nunito', sans-serif;
     font-weight: 500;
     font-size: 25px;
@@ -101,20 +104,21 @@ body{
     font-weight: 300;
     font-size: 15px;
     color: #0a0a0a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .rodape{
-    margin-top: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     padding-top: 15px;
     padding-bottom: 15px;
     border-top: 2px solid #a0db34;
     display: flex;
-    align-items: center;justify-content: center;
+    align-items: center;
+    justify-content: center;
 }
-.sobre{
-    margin: 0 10px;
-    padding: 0 20px;
-    text-align: center;
-}
+
 strong{
     color: rgb(129, 199, 64);
     font-size: 17px;
