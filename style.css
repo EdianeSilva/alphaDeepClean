@@ -110,10 +110,11 @@ body{
 }
 .rodape{
     margin-top: 5px;
-    margin-bottom: 5px;
     padding-top: 15px;
-    padding-bottom: 15px;
     border-top: 2px solid #a0db34;
+
+}
+.rodape h5{
     display: flex;
     align-items: center;
     justify-content: center;
