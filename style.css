@@ -23,7 +23,7 @@ body{
     color: #a0db34;
 }
 .logo{
-    height: 100px;
+    height: 90px;
 }
 .menu-cabecalho{
     display: flex;
@@ -32,7 +32,7 @@ body{
 .conteudo{
     margin-bottom: 30px;
     border-top: 2px solid #a0db34;
-    margin: 10px;
+    margin: 0 5%;
     padding: 0px 5px;
 }
 .conteudo-principal{
@@ -40,16 +40,16 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .main{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 .main-titulo{
     font-family: 'Nunito', sans-serif;
-    font-weight: 700;
+    font-weight: 900;
     font-size: 30px;
     color: #2678d1;
 }
@@ -60,9 +60,9 @@ body{
 }
 .main-botao{
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(37,145,251,0.98) 0.1%, rgba(0,7,128,1) 99.8% );
-    width: 150px;
+    width: 130px;
     height: 40px;
-    border-radius:  10px;
+    border-radius:  35px 2px;
     cursor: pointer;
     border: none;
     box-shadow: 4px 5px 4px #33343586;
@@ -82,7 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
+    gap: 5px;
     margin-top: 50px;
 }
 .conteudo-secundario-titulo{
