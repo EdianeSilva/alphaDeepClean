@@ -98,6 +98,12 @@ body{
     font-size: 25px;
     color: #2678d1;
 }
+.conteudo-secundario-subtitulo{
+margin: 5px 0px;
+color: #176803;
+gap: 15px;
+font-family: 'Nunito', sans-serif;
+}
 .conteudo-secundario-p{
     font-family: 'Nunito', sans-serif;
     font-weight: 300;
@@ -106,6 +112,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 .rodape{
     margin-top: 5px;
